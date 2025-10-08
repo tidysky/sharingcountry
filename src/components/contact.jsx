@@ -37,7 +37,7 @@ export default function Contact(){
     return (
         <div className="contact relative w-screen h-screen overflow-hidden bg-[#3e3e3e]">
             {/* 背景图片 - 初始状态会很小 */}
-            <img className='absolute w-full h-full object-cover rounded-3xl' src='/public/contact.png' alt='Contact Background' />
+            <img className='absolute w-full h-full object-cover rounded-3xl' src='contact.png' alt='Contact Background' />
             
             {/* 黑色遮罩层 - 添加 overlay 类名 */}
             <div className="overlay absolute w-full h-full bg-black bg-opacity-50 rounded-3xl"></div>

@@ -75,7 +75,7 @@ export default function Map(){
       </div>
                 </div>
                <div className="w-full h-full relative overflow-hidden">
-                    <img src="/public/map.png" className="map absolute top-0 left-0 w-[4000px]" />
+                    <img src="map.png" className="map absolute top-0 left-0 w-[4000px]" />
                 </div>
            </div>
 å

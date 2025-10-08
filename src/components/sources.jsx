@@ -65,26 +65,26 @@ export default function Sources(){
 
            <div className="images flex justify-items-center">
             <div className="line1 w-[33%]">
-                <img src="/public/scroll-img-1.jpg" />
-                <img src="/public/scroll-img-1.jpg" />
-                <img src="/public/scroll-img-1.jpg" />
-                <img src="/public/scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
             </div>
             <div className="line2  w-[33%] centerimages">
-                <img src="/public/scroll-img-1.jpg" />
-                <img src="/public/scroll-img-1.jpg" />
-                <img src="/public/scroll-img-1.jpg" />
-                <img src="/public/scroll-img-1.jpg" />
-                 <img src="/public/scroll-img-1.jpg" />
-                <img src="/public/scroll-img-1.jpg" />
-                 <img src="/public/scroll-img-1.jpg" />
-                <img src="/public/scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                 <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                 <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
             </div>
             <div className="line3  w-[33%]">
-                <img src="/public/scroll-img-1.jpg" />
-                <img src="/public/scroll-img-1.jpg" />
-                <img src="/public/scroll-img-1.jpg" />
-                <img src="/public/scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
             </div>
            </div>
           
