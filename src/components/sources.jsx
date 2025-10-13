@@ -69,6 +69,12 @@ export default function Sources(){
                 <img src="scroll-img-1.jpg" />
                 <img src="scroll-img-1.jpg" />
                 <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                 <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
             </div>
             <div className="line2  w-[33%] centerimages">
                 <img src="scroll-img-1.jpg" />
@@ -79,11 +85,25 @@ export default function Sources(){
                 <img src="scroll-img-1.jpg" />
                  <img src="scroll-img-1.jpg" />
                 <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
             </div>
             <div className="line3  w-[33%]">
                 <img src="scroll-img-1.jpg" />
                 <img src="scroll-img-1.jpg" />
                 <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                <img src="scroll-img-1.jpg" />
+                 <img src="scroll-img-1.jpg" />
                 <img src="scroll-img-1.jpg" />
             </div>
            </div>

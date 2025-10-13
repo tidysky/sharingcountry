@@ -52,7 +52,7 @@ export default function Intro(){
             <div className="text-[#696969] text-8xl absolute top-0 left-0 eras board">BOARD</div>
             <div className="text-[#696969] text-8xl absolute right-0 top-0 eras game">GAME</div>
             </div>
-            <div className="z-10 relative flex flex-col items-center text-center text-[#9b9476] justify-center w-full h-full text-2xl">
+            <div className="z-10 relative flex flex-col items-center text-center text-[#9b9476] justify-center w-full h-full text-2xl text-4xl">
                <motion.p className='py-[0.5%] opacity-0'
                 whileInView={{
                     y:-20,
@@ -64,32 +64,10 @@ export default function Intro(){
                 }}
                 >
                 Introduction of the boardgame Introduction ...<br />
+                 Introduction of the boardgame Introduction ...<br />
+                  Introduction of the boardgame Introduction ...<br />
                 </motion.p>
-                <motion.p className='py-[0.5%] opacity-0'
-                whileInView={{
-                    y:-20,
-                    opacity:1,
-                }}
-              transition={{
-                    duration: 0.5, // 动画时长，单位秒
-                    delay: 0.3,  // 延迟时间，单位秒
-                }}
-                >
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Introduction of the boardgame Introduction ...<br />
-                </motion.p>
-                <motion.p className='py-[0.5%] opacity-0'
-                whileInView={{
-                    y:-20,
-                    opacity:1,
-                }}
-              transition={{
-                    duration: 0.5, // 动画时长，单位秒
-                    delay: 0.4,  // 延迟时间，单位秒
-                }}
-                >
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                Introduction of the boardgame Introduction ...<br />
-                </motion.p>
+               
               
             </div>
            

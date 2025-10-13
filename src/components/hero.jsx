@@ -13,7 +13,7 @@ const handleAnimationComplete = () => {
              <div className="z-10 relative flex flex-col items-center top-[20%] text-white">
                 {/* <h1 className="text-9xl font-bold eras">PRODUCNAME</h1> */}
                
-<div className="text-9xl font-bold eras" style={{ textAlign: 'center' }}>
+<div className="md:text-9xl font-bold eras text-7xl" style={{ textAlign: 'center' }}>
   {/* 第一行：SHARING */}
   <SplitText
     text="SHARING"
@@ -48,7 +48,7 @@ const handleAnimationComplete = () => {
     onLetterAnimationComplete={handleAnimationComplete}
   />
 </div>
-                 <motion.h2 className="text-5xl py-[0.5%] opacity-[0]"
+                 <motion.h2 className="md:text-5xl py-[0.5%] opacity-[0] text-lg"
                 whileInView={{
                     
                     opacity:1,

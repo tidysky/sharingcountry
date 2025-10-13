@@ -44,8 +44,8 @@ export default function Contact(){
             
             {/* 文字内容 - 确保 z-index 大于图片 */}
             <div className="z-10 relative flex flex-col items-center justify-center h-screen text-white">
-                <h1 className="text-6xl text-[#a0997a] text-center leading-normal eras pt-[10%] pb-[8%]">ENJOY YOUR JOURNEY!</h1>
-                <h2 className="text-lg text-[#a0997a] text-center leading-normal eras">
+                <h1 className="md:text-6xl text-5xl text-[#a0997a] text-center leading-normal eras pt-[10%] pb-[8%]">ENJOY YOUR JOURNEY!</h1>
+                <h2 className="md:text-lg text-base text-[#a0997a] text-center leading-normal eras">
                     Website design - NoraZheng<br />
                     Website developing - NoraZheng<br />
                     CONTACT - NZHE0074@UNI.SYDNEY.EDU.AU<br />
