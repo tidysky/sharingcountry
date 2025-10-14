@@ -34,7 +34,7 @@ export default function Sources(){
                 y: 0 // 起始位置，当前坐标
             },
             {
-                y: -1000, // 结束位置：向下移动1000px
+                y: -1200, // 结束位置：向下移动1000px
                 scrollTrigger: {
                 trigger: ".cardImages",   // 触发动画的元素
                 start: "top bottom",     // 当 .my-images 顶部到达视口底部时触发
@@ -104,10 +104,10 @@ export default function Sources(){
                 
             </div>
             <div className="line2  w-[20%] imagesUp">
-                <img src="scroll-img-3.jpg" />
                 <img src="scroll-img-4.jpg" />
-                <img src="scroll-img-5.jpg" />
+                <img src="scroll-img-3.jpg" />
                 <img src="scroll-img-6.jpg" />
+                <img src="scroll-img-5.jpg" />
                 <img src="scroll-img-2.jpg" />
                 <img src="scroll-img-3.jpg" />
                 <img src="scroll-img-4.jpg" />
@@ -126,9 +126,10 @@ export default function Sources(){
                 <img src="scroll-img-2.jpg" />
             </div>
             <div className="line3  w-[20%] imagesDown">
-                <img src="scroll-img-4.jpg" />
-                <img src="scroll-img-6.jpg" />
+                
+                <img src="scroll-img-6.jpg" />    
                 <img src="scroll-img-5.jpg" />
+                <img src="scroll-img-4.jpg" />
                 <img src="scroll-img-3.jpg" />
                 <img src="scroll-img-2.jpg" />
                 <img src="scroll-img-4.jpg" />
@@ -149,9 +150,9 @@ export default function Sources(){
             </div>
              <div className="line4 w-[20%] imagesUp">
                 <img src="scroll-img-3.jpg" />
-                <img src="scroll-img-2.jpg" />
-                <img src="scroll-img-5.jpg" />
                 <img src="scroll-img-6.jpg" />
+                <img src="scroll-img-5.jpg" />
+                <img src="scroll-img-2.jpg" /> 
                 <img src="scroll-img-4.jpg" />
                 <img src="scroll-img-3.jpg" />
                 <img src="scroll-img-2.jpg" />
@@ -173,10 +174,10 @@ export default function Sources(){
             <div className="line5  w-[20%] imagesDown">
                 <img src="scroll-img-6.jpg" />
                 <img src="scroll-img-5.jpg" />
-                <img src="scroll-img-4.jpg" />
+                <img src="scroll-img-6.jpg" />
                 <img src="scroll-img-3.jpg" />
                 <img src="scroll-img-2.jpg" />
-                 <img src="scroll-img-6.jpg" />
+                <img src="scroll-img-4.jpg" />
                 <img src="scroll-img-5.jpg" />
                 <img src="scroll-img-4.jpg" />
                 <img src="scroll-img-3.jpg" />

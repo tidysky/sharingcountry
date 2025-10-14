@@ -62,7 +62,7 @@ const handleAnimationComplete = () => {
                
             </div>
             
-            <div className="w-full absolute top-0 left-0 z-10 bg-black h-full opacity-40 z-[1]"></div>
+            <div className="w-full absolute top-0 left-0 z-10 bg-black h-full opacity-60 z-[1]"></div>
             <video className="w-full absolute top-0 left-0 z-0 object-cover h-full"
             autoPlay
             muted
