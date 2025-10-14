@@ -11,11 +11,11 @@ export default function CardIntro(){
          gsap.fromTo(
             ".cardImages",
             {
-                scale: 1.5,
+                scale: 1.1,
                 y:0,
             },
             {
-                scale: 1.5, 
+                scale: 1.1, 
                 y:100,
                 scrollTrigger: {
                 trigger: ".cardIntro",   
@@ -32,7 +32,7 @@ export default function CardIntro(){
 
     return(
         <>
-        <div className="relative w-screen h-screen overflow-hidden bg-[#333333] z-10 cardIntro flex md:items-center md:justify-center " >
+        <div className="relative w-screen h-screen overflow-hidden bg-[#333333] z-10 cardIntro flex md:items-center md:justify-center  " >
              <div className="singlecard z-10 relative flex flex-col md:items-left text-center md:justify-center md:pr-[20%] pt-[4vh] md:pt-0" data-speed="1.8">
                 <motion.p className="text-2xl md:text-3xl font-bold text-[#e3e3e3] py-[1%] opacity-0"
                 whileInView={{
@@ -75,9 +75,23 @@ export default function CardIntro(){
                  }}
                  >CULTURE ELEMENTS</motion.p>
             </div>
-            <div className="z-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/4 md:translate-x-0 md:translate-y-0 md:top-[20%] md:right-[20%] w-[300px] h-[500px] overflow-hidden" data-speed="1">
-                <img src="singalCard.jpg" className='cardImages' />
-            </div>
+            <div
+  className="
+    cardimg-singlecard
+    z-0 absolute top-1/2 left-1/2 w-[320px] h-[580px]
+    flex items-center justify-center
+    -translate-x-1/2 -translate-y-1/2
+    md:translate-x-0 md:translate-y-0 md:top-[20%] md:right-[20%] md:left-auto
+    lg:top-[10%] lg:right-[20%]
+  "
+  data-speed="1.2"
+>
+  <img
+    src="scroll-img-2.jpg"
+    className="cardImages object-contain w-full h-full"
+  />
+</div>
+
             
            <div>
                 <img src="" />

@@ -52,7 +52,7 @@ export default function Intro(){
             <div className="text-[#696969] text-8xl absolute top-0 left-0 eras board">BOARD</div>
             <div className="text-[#696969] text-8xl absolute right-0 top-0 eras game">GAME</div>
             </div>
-            <div className="z-10 relative flex flex-col items-center text-center text-[#9b9476] justify-center w-full h-full text-2xl text-4xl">
+            <div className="z-10 leading-relaxed relative flex flex-col items-center text-center text-[#9b9476] justify-center w-[80%] mx-auto h-full text-2xl text-4xl">
                <motion.p className='py-[0.5%] opacity-0'
                 whileInView={{
                     y:-20,
@@ -63,9 +63,7 @@ export default function Intro(){
                     delay: 0.2,  // 延迟时间，单位秒
                 }}
                 >
-                Introduction of the boardgame Introduction ...<br />
-                 Introduction of the boardgame Introduction ...<br />
-                  Introduction of the boardgame Introduction ...<br />
+                <b >Embark on the journey of Sharing Country as a traveler!<br/> Exploring the rich heritage of Gadigal Aboriginal culture <br />across the land of Sydney!</b>
                 </motion.p>
                
               

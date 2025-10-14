@@ -40,7 +40,7 @@ export default function EventsIntro() {
           <div className='w-screen h-screen flex flex-col items-center justify-center text-center'>
             <p className='md:text-8xl text-6xl font-bold text-[#e3e3e3] py-[1%]'>30+</p>
             <p className='md:text-4xl text-2xl font-bold text-[#3e3e3e] eras'>Abrigaial culture related</p>
-            <p className='md:text-7xl text-4xl font-bold text-[#3e3e3e] eras py-[1%]'>ANIMATIONS AND PLANTS</p>
+            <p className='md:text-7xl text-4xl font-bold text-[#3e3e3e] eras py-[1%]'>ANIMALS AND PLANTS</p>
           </div>
           {/* 第二个 div，占一屏 */}
           <div className='w-screen h-screen flex flex-col items-center justify-center'>
