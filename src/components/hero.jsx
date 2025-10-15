@@ -6,6 +6,7 @@ const handleAnimationComplete = () => {
   console.log('All letters have animated!');
 };
 
+document.querySelector('.Videoplay')?.play();
 
     return(
         <>
@@ -63,11 +64,13 @@ const handleAnimationComplete = () => {
             </div>
             
             <div className="w-full absolute top-0 left-0 z-10 bg-black h-full opacity-60 z-[1]"></div>
-            <video className="w-full absolute top-0 left-0 z-0 object-cover h-full"
+            <video className="Videoplay w-full absolute top-0 left-0 z-0 object-cover h-full"
             autoPlay
             muted
-            loop>
-                <source src="water.mp4" />
+            loop
+            playsInline
+            preload>
+                <source src="water.mp4" type="video/mp4" />
             </video>
           
            
