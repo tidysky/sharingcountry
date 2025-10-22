@@ -46,9 +46,9 @@ export default function Contact(){
             <div className="z-10 relative flex flex-col items-center justify-center h-screen text-white">
                 <h1 className="md:text-6xl text-5xl text-[#a0997a] text-center leading-normal eras pt-[10%] pb-[8%]">ENJOY YOUR JOURNEY!</h1>
                 <h2 className="md:text-lg text-base text-[#a0997a] text-center leading-normal eras">
+                    CONTACT - NZHE0074@UNI.SYDNEY.EDU.AU<br /><br />
                     Website design - NoraZheng<br />
                     Website developing - NoraZheng<br />
-                    CONTACT - NZHE0074@UNI.SYDNEY.EDU.AU<br />
                 </h2>
             </div>
 

@@ -74,7 +74,7 @@ export default function Sources(){
         <>
         <div className="relative w-screen h-screen overflow-hidden sources">
              <div className="z-10 absolute flex flex-col items-center top-[0] left-[50%] -translate-x-1/2 -translate-y-[100%] text-white">
-                <h1 className="text-8xl font-bold eras sourcesText">RICH SOURCES</h1>
+                <h1 className="text-6xl font-bold eras sourcesText md:text-8xl">RICH SOURCES</h1>
             </div>
             
             <div className="w-full absolute top-0 left-0 z-10 bg-black h-full opacity-40 z-[1]"></div>
