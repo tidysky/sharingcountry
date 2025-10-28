@@ -33,7 +33,7 @@ export default function EventsIntro() {
 
   return (
     <>
-      <div className='eventIntro relative w-screen h-screen bg-[#a0997a]'>
+      <div className='eventIntro relative w-screen h-screen bg-[#a0997a] overflow-hidden'>
         {/* 这是横向滚动的容器 */}
         <div className='horizontal-scroller flex w-[300vw] h-screen'>
           {/* 第一个 div，占一屏 */}
