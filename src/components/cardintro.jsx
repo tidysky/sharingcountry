@@ -53,7 +53,7 @@ export default function CardIntro(){
                         duration: 0.5, // 动画时长，单位秒
                         delay: 0.2,  // 延迟时间，单位秒
                  }}
-                 >INTRODUCING CULTURE</motion.p>
+                 >DIFFERENT</motion.p>
                 <motion.p 
                 whileInView={{
                     x:-20,
@@ -63,7 +63,9 @@ export default function CardIntro(){
                         duration: 0.5, // 动画时长，单位秒
                         delay: 0.2,  // 延迟时间，单位秒
                  }}
-                 className="md:text-5xl text-4xl font-bold text-[#928c71] eras pl-[5%] py-[1%]">EVENTS HAPPEND</motion.p>
+                 className="md:text-5xl text-4xl font-bold text-[#928c71] eras pl-[5%] py-[1%] pl-[2%]">
+                    CULTURE
+                </motion.p>
                 <motion.p className="md:text-5xl text-4xl font-bold text-[#928c71] eras pl-[10%]"
                 whileInView={{
                     x:20,
@@ -73,7 +75,7 @@ export default function CardIntro(){
                         duration: 0.5, // 动画时长，单位秒
                         delay: 0.2,  // 延迟时间，单位秒
                  }}
-                 >CULTURE ELEMENTS</motion.p>
+                 >ELEMENTS</motion.p>
             </div>
             <div
   className="
