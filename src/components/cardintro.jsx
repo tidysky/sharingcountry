@@ -87,7 +87,7 @@ export default function CardIntro(){
   data-speed="1.2"
 >
   <img
-    src="scroll-img-2.jpg"
+    src="scroll-img-10.png"
     className="cardImages object-contain w-full h-full"
   />
 </div>
