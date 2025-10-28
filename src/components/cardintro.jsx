@@ -33,7 +33,7 @@ export default function CardIntro(){
     return(
         <>
         <div className="relative w-screen h-screen overflow-hidden bg-[#333333] z-10 cardIntro flex md:items-center md:justify-center  " >
-             <div className="singlecard z-10 relative flex flex-col md:items-left text-center md:justify-center md:pr-[20%] pt-[4vh] md:pt-0" data-speed="1.8">
+             <div className="singlecard z-10 relative flex flex-col md:items-left text-center md:justify-center md:pr-[15%] pt-[10%] md:pt-0" data-speed="1.8">
                 <motion.p className="text-2xl md:text-3xl font-bold text-[#e3e3e3] py-[1%] opacity-0"
                 whileInView={{
                     x:-20,
@@ -63,9 +63,8 @@ export default function CardIntro(){
                         duration: 0.5, // 动画时长，单位秒
                         delay: 0.2,  // 延迟时间，单位秒
                  }}
-                 className="md:text-5xl text-4xl font-bold text-[#928c71] eras pl-[5%] py-[1%] pl-[2%]">
-                    CULTURE
-                </motion.p>
+                 className="md:text-5xl text-4xl font-bold text-[#928c71] eras pl-[5%] py-[1%] pt-[1%]">
+                    CULTURE</motion.p>
                 <motion.p className="md:text-5xl text-4xl font-bold text-[#928c71] eras pl-[10%]"
                 whileInView={{
                     x:20,
