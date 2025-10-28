@@ -77,7 +77,7 @@ export default function CardIntro(){
                  >ELEMENTS</motion.p>
             </div>
 
-            <div className="block md:hidden singlecard z-10 relative flex flex-col items-center text-center justify-center pr-[30%] pt-[0] " data-speed="1.8">
+            <div className="block md:hidden singlecard z-10 relative flex flex-col text-center justify-center pr-[30%] pt-[0] " data-speed="1.8">
                 <motion.p className="text-3xl font-bold text-[#e3e3e3] py-[1%] opacity-0"
                 whileInView={{
                     x:-20,
