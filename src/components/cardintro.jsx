@@ -33,7 +33,7 @@ export default function CardIntro(){
     return(
         <>
         <div className="relative w-screen h-screen overflow-hidden bg-[#333333] z-10 cardIntro flex md:items-center md:justify-center  " >
-             <div className="singlecard z-10 relative flex flex-col md:items-left text-center md:justify-center md:pr-[15%] pt-[10%] md:pt-0" data-speed="1.8">
+             <div className="singlecard z-10 relative flex flex-col md:items-left text-center md:justify-center pt-[10%] md:pt-0" data-speed="1.8">
                 <motion.p className="text-2xl md:text-3xl font-bold text-[#e3e3e3] py-[1%] opacity-0"
                 whileInView={{
                     x:-20,
