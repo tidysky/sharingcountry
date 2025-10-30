@@ -101,19 +101,19 @@ useEffect(() => {
           </button>
           <button
             className="ocean bg-[#a0997a] border border-black px-4 py-2 font-bold"
-            onClick={() => handleMoveMap(-mapWidth / 1.8, 0)}
+            onClick={() => handleMoveMap(-mapWidth / 2, 0)}
           >
             OCEAN
           </button>
           <button
             className="forest bg-[#a0997a] border border-black px-4 py-2 font-bold"
-            onClick={() => handleMoveMap(0, -mapHeight)}
+            onClick={() => handleMoveMap(0, -mapHeight*1.2)}
           >
             FOREST
           </button>
           <button
             className="river bg-[#a0997a] border border-black px-4 py-2 font-bold"
-            onClick={() => handleMoveMap(-mapWidth/1.8, -mapHeight)}
+            onClick={() => handleMoveMap(-mapWidth/2, -mapHeight*1.2)}
           >
             RIVER
           </button>
