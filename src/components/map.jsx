@@ -83,12 +83,12 @@ useEffect(() => {
         <div className="relative w-full h-full overflow-hidden">
         <img
               src="map-ipad.jpg" 
-             className="map absolute top-0 left-0 w-full h-auto object-contain portrait:block landscape:hidden"
+             className="map absolute top-0 left-0 w-full h-auto object-contain landscape:block portrait:hidden"
               
             />
           <img
               src="map-ipad-v.jpg" 
-             className="map absolute top-0 left-0 w-full h-auto object-contain landscape:block portrait:hidden"
+             className="map absolute top-0 left-0 w-full h-auto object-contain portrait:block landscape:hidden"
               
             />
         </div>
