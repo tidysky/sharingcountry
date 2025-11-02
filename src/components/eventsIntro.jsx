@@ -7,29 +7,30 @@ import { motion } from 'motion/react';
 gsap.registerPlugin(ScrollTrigger);
 
 export default function EventsIntro() {
-  useGSAP(() => {
-    // 获取横向滚动的容器
-    const horizontalScroller = document.querySelector('.horizontal-scroller');
+  useEffect(() => {
+  const horizontalScroller = document.querySelector('.horizontal-scroller');
 
-    // 检查元素是否存在
-    if (horizontalScroller) {
-      // 创建 GSAP 动画，将容器从左向右移动
-      gsap.to(horizontalScroller, {
-        // x 属性移动的距离为容器总宽度减去一个视口宽度，这样最后一个 div 会刚好对齐
-        x: -(horizontalScroller.scrollWidth - window.innerWidth),
-        ease: 'none', // 线性动画
-        scrollTrigger: {
-          trigger: '.eventIntro',
-          pin: true, // 固定住整个 eventIntro 容器
-          pinSpacing: 'auto', // 固定时自动添加空间，让下面的内容可以正常滚动上来
-          scrub: 1, // 将动画进程与滚动条关联，值为1表示有平滑效果
-          start: 'top top', // 当 eventIntro 顶部与视口顶部对齐时开始
-          end: () => `+=${horizontalScroller.scrollWidth - window.innerWidth}`, // 滚动距离等于横向滚动所需距离
-          // markers: true, // 调试用，可以取消注释
-        },
-      });
-    }
-  });
+  if (horizontalScroller) {
+    gsap.to(horizontalScroller, {
+      x: -(horizontalScroller.scrollWidth - window.innerWidth),
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.eventIntro',
+        pin: true,
+        pinSpacing: 'auto',
+        scrub: 1,
+        start: 'top top',
+        end: () => `+=${horizontalScroller.scrollWidth - window.innerWidth}`,
+      },
+    });
+
+    // ⚠️ 等待一帧后刷新 ScrollTrigger 计算（避免初始跳动）
+    setTimeout(() => {
+      ScrollTrigger.refresh();
+    }, 500);
+  }
+}, []);
+
 
   return (
     <>
