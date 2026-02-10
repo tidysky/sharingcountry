@@ -1,56 +1,51 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 import { useEffect } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function EventsIntro() {
+  // ✅ Step 1: 修正移动端 100vh（解决底部白边）— 单独放在 useEffect 中
   useEffect(() => {
-    // ✅ Step 1: 修正移动端 100vh（解决底部白边）
     const setVh = () => {
       const vh = window.innerHeight * 0.01;
       document.documentElement.style.setProperty("--vh", `${vh}px`);
     };
     setVh();
     window.addEventListener("resize", setVh);
+    return () => window.removeEventListener("resize", setVh);
+  }, []);
 
-    // ✅ Step 2: 初始化横向滚动动画
+  // ✅ Step 2: 使用 useGSAP 管理横向滚动动画（自动清理，不影响其他 ScrollTrigger）
+  useGSAP(() => {
     const horizontalScroller = document.querySelector(".horizontal-scroller");
-    if (horizontalScroller) {
-      gsap.to(horizontalScroller, {
-        x: -(horizontalScroller.scrollWidth - window.innerWidth),
-        ease: "none",
-        scrollTrigger: {
-          trigger: ".eventIntro",
-          pin: true, // 保留 pin
-          scrub: 1,
-          anticipatePin: 1, // 平滑固定
-          pinSpacing: "auto",
-          start: "top top",
-          end: () => `+=${horizontalScroller.scrollWidth - window.innerWidth}`,
-        },
-      });
-    }
+    if (!horizontalScroller) return;
 
-    // ✅ Step 3: 延迟刷新，确保 ScrollTrigger 高度计算正确
+    gsap.to(horizontalScroller, {
+      x: -(horizontalScroller.scrollWidth - window.innerWidth),
+      ease: "none",
+      scrollTrigger: {
+        trigger: ".eventIntro",
+        pin: true,
+        scrub: 1,
+        anticipatePin: 1,
+        start: "top top",
+        end: () => `+=${horizontalScroller.scrollWidth - window.innerWidth}`,
+      },
+    });
+
+    // 延迟刷新，确保 ScrollTrigger 高度计算正确
     setTimeout(() => {
       ScrollTrigger.refresh();
     }, 800);
-
-    // ✅ Step 4: 清理事件
-    return () => {
-      window.removeEventListener("resize", setVh);
-      ScrollTrigger.killAll();
-    };
-  }, []);
+  });
 
   return (
     <div
       className="eventIntro relative w-screen bg-[#a0997a] overflow-hidden"
       style={{
         height: "calc(var(--vh) * 100)",
-        overscrollBehavior: "none", // 禁止回弹露白
-        WebkitOverflowScrolling: "auto", // 防止惯性滚动影响 pin
       }}
     >
       {/* 横向滚动容器 */}
